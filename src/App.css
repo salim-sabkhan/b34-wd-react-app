@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  /* display: flex; */
+}
+
+.profile-pic{
+  height: 450px;
+  width: 450px;
+  /* object-fit: cover;  */
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.profile-pic:hover{
+  transform: scale(1.2);
 }
 
 .App-logo {
